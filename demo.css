@@ -1,0 +1,99 @@
+header {
+    display: flex;
+
+    justify-content:center;
+    background-color: blanchedalmond;
+    color: blue;
+    background-color: #1f2937;
+
+}
+header p{
+    color: blue;
+    font-size: 30px;
+    margin: 30px;
+    
+}
+li{ list-style: none;}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.logo {    
+    color: white;
+    flex:69% ;
+}
+    
+a {
+    margin: 30px;
+    padding: 2PX;
+    gap: 2px;
+    display: flex;
+    flex: 29%;
+    font-size: 20px;
+    margin-top: 20px;
+    
+
+}
+li{
+    display: inline-block;
+   
+}
+.links{
+
+    margin-right: 30px;
+}
+
+
+.boxes {
+    display: flex;
+    gap: 30px;
+    font-size: 50x;
+    align-items: center;
+}
+
+
+
+
+into-box{
+    display: flex;
+    
+}
+image{ width: 150px;
+height: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
