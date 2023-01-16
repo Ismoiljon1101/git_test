@@ -13,6 +13,7 @@ header p{
     margin: 30px;
     
 }
+
 li{ list-style: none;}
 html, body {
     margin: 0;
@@ -21,6 +22,7 @@ html, body {
 .logo {    
     color: white;
     flex:69% ;
+    font-size: 40px;
 }
     
 a {
@@ -48,30 +50,57 @@ li{
     display: flex;
     gap: 30px;
     font-size: 50x;
-    align-items: center;
-}
-
-
-
-
-into-box{
-    display: flex;
+   
     
 }
-image{ width: 150px;
-height: 100px;}
+.boxes div{
+    border: 2px solid black;
+
+    
+}
+
+.intro-box{
+    display: flex;
+    align-items: center;
+    
+}
+
+.awesome{
+    margin: 10%;
+}
+h3{
+    text-align: center;
+}
+
+.signup-box{
+    margin: 70px;
+    border: 2px solid red;
+    align-items: center;
+    text-align: center;
+ 
+}
+.signup-2{
+    margin: 20px;
+    
+    
+}
+.boxx{
+    margin: 2%;
+}
+.random{
+    align-items: center;
+    text-align: center;
+}
+
+button{ margin-left: 50%;}
+
+.quote{
+    text-align: center;
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.quote p{
 
 
 
