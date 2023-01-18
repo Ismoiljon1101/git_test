@@ -1,128 +1,125 @@
-header {
-    display: flex;
 
-    justify-content:center;
-    background-color: blanchedalmond;
-    color: blue;
-    background-color: #1f2937;
-
-}
-header p{
-    color: blue;
-    font-size: 30px;
-    margin: 30px;
-    
-}
-
-li{ list-style: none;}
-html, body {
+body{
     margin: 0;
     padding: 0;
 }
-.logo {    
-    color: white;
-    flex:69% ;
-    font-size: 40px;
-}
-    
-a {
-    margin: 30px;
-    padding: 2PX;
-    gap: 2px;
-    display: flex;
-    flex: 29%;
-    font-size: 20px;
-    margin-top: 20px;
-    
 
+header{
+
+    display: flex;
+    color:whitesmoke;
+    list-style-type: none;
+    align-content: flex-start;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100px;
+    align-items: baseline;
 }
-li{
+
+li {
+    list-style-type: none;
     display: inline-block;
-   
-}
-.links{
-
-    margin-right: 30px;
+    justify-content: flex-end;
 }
 
-
-.boxes {
-    display: flex;
-    gap: 30px;
-    font-size: 50x;
-   
-    
+a{
+    color: aliceblue;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
 }
-.boxes div{
-    border: 2px solid black;
+.box-1{
+    background-color: rgb(31, 62, 83);
 
-    
-}
-
-.intro-box{
-    display: flex;
-    align-items: center;
-    
 }
 
 .awesome{
-    margin: 10%;
-}
-h3{
-    text-align: center;
-}
 
-.signup-box{
-    margin: 70px;
-    border: 2px solid red;
-    align-items: center;
-    text-align: center;
- 
-}
-.signup-2{
-    margin: 20px;
-    
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    padding-bottom: 50px;
     
 }
-.boxx{
-    margin: 2%;
+
+.con-1
+{
+    color: rgb(241, 241, 241);
+   
 }
-.random{
+
+.con-2{
+    width: 1;
+    border-color: rgb(247, 218, 218);
+    color: aliceblue;
+    
+    border: 2px solid rgb(169, 194, 223);
+    display: flex;
     align-items: center;
+    background-color: rgb(169, 194, 223);
+   
+    
+}
+
+.con-2 p {
+
+margin:20px;}
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border: 2px solid blue;
+    margin: 30px;
     text-align: center;
 }
 
-button{ margin-left: 50%;}
-
-.quote{
+.random-boxes{
+    justify-content: center;
+    display: flex;
+    
+}
+p  {
     text-align: center;
-
 }
 
+h2{
+    text-align: center;
+}
 
-.quote p{
+.button1{
+    margin-left: 35%;
+    color: white;
+    background-color: rgb(119, 218, 193);
+    border-radius: 50px;
+    font-size: large;
+    border-color: rgb(119, 218, 193);
+}
+.box-3{
 
+    background-color: rgb(150, 140, 140);
+    
+    display: flex;
+    padding: 100px 70px;
+}
+.sign-up-box{
 
+    background-color: blue;
 
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: baseline;
+    color: white;
+}
+.b{
+ color: white;
+   
+}
+.copyright{
+    background-color:rgb(31, 62, 83) ;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

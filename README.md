@@ -1,5 +1,2 @@
 # git_test
-YaHoooooo
-hooooooo 
-yahee 
- yeheeeeeeeeeee
+This is the foundation course project 
